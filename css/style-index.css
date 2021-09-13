@@ -276,6 +276,7 @@
 
 
 .products {
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     margin-left: calc(-1 * var(--spacing));
@@ -442,7 +443,7 @@
     color: white;
 }
 
-.product__button:first-child {
+.product__button {
 	margin-right: 12px;
 }
 
@@ -458,12 +459,10 @@
 }
 
 
-.product__item:hover .product__button:first-child {
+.product__item:hover .product__button {
 	transition-delay: 0.1s;
 }
-.product__item:hover .product__button:last-child {
-	transition-delay: 0.1s;
-}
+
 .products__button {
 	text-align: center;
 }

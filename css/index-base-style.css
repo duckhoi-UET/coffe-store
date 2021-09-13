@@ -23,14 +23,15 @@ li {
 }
 
 .section--title {
-	font-size: 55px;
+	font-size: 50px;
 	color: var(--black-color);
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	font-weight: 600;
 	letter-spacing: 2px;
 }
+
 .section--bg {
 	background-color: #f4f4f4;
 }
@@ -46,6 +47,7 @@ img {
 .fa-shopping-cart{
     color: black;
 }
+
 
 
 
