@@ -32,7 +32,11 @@ li {
 	letter-spacing: 2px;
 }
 .section--bg {
-	background: url(../images/bg-home.jpg) repeat center / auto;
+	background-color: #f4f4f4;
+}
+
+.section--basic {
+    padding: 50px 0;
 }
 
 img {
