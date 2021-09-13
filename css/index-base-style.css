@@ -1,0 +1,41 @@
+body {
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: var(--font-poppins);
+    color: var(--gray-color);
+    background-color: var(--white-color);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #a43664;
+}
+
+li {
+	list-style: none;
+}
+
+.section--title {
+	font-size: 55px;
+	color: var(--black-color);
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.section--bg {
+	background: url(../images/bg-home.jpg) repeat center / auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
