@@ -48,6 +48,36 @@ img {
     color: black;
 }
 
+.btn--link {
+	position: relative;
+	padding: 12px 22px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: 0.2s ease-in-out;
+	color: var(--gray-color);
+}
+.btn--link:hover {
+	transform: translateY(10px);
+}
+.btn--link::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: calc(100% - 60px);
+	height: 100%;
+	border: 2px solid transparent;
+	border-bottom-color: inherit;
+	transition: all 0.2s ease;
+}
+.btn--link:hover::after {
+	width: 100%;
+	border-color: inherit;
+	transition: all 0.2s ease-out;
+}
+
 
 
 
