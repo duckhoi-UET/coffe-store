@@ -158,6 +158,9 @@
 /* === Tablet large === */
 @media screen and (max-width: 991.98px) {
 	/*=== Header ===*/
+	main{
+		padding-top: 60px;
+	}
 	.nav__main .grid.wide {
 		padding: 4px 0;
 	}
