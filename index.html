@@ -6,6 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="css/style-index.css">
     <link rel="stylesheet" type="text/css" href="css/index-base-style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -45,32 +46,48 @@
                 </div>
                 <div class="nav__main">
                     <div class="grid wide">
-                        <div class="nav__container">
-                            <div class="nav-menu">
-                                <ul class="nav-menu__list">
-                                    <li class="nav-menu__item active">
-                                        <a href="/" class="nav-menu__link">Home</a>
-                                    </li>
-                                    <li class="nav-menu__item">
-                                        <div class="nav-menu__box">
-                                            <a href="/" class="nav-menu__link">Gallery</a>
-                                            <i class='bx bx-chevron-down nav-menu__icon'></i>
-                                        </div>
-                                        <ul class="nav-dropdown">
-                                            <li class="nav-dropdown__item">
-                                                <a href="# ">Grid Gallery</a>
-                                            </li>
-                                            <li class="nav-dropdown__item">
-                                                <a href="# ">Grid Fullwidth Gallery</a>
-                                            </li>
-                                            <li class="nav-dropdown__item">
-                                                <a href="# ">Masonry Gallery</a>
-                                            </li>
-                                            <li class="nav-dropdown__item">
-                                                <a href="# ">Masonry Fullwidth Gallery</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                        <nav class="navbar navbar-expand-lg navbar-light" style="padding: 0px;">
+                    
+                            <div class="nav-hidden">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="nav-logo">
+                                    <a href="/ " class="nav-logo__link">
+                                        <img class="nav-logo__img" src="./images/Logo-main.png" alt="Logo" />
+                                    </a>
+                                </div>
+                                <div class="nav-button">
+                                    <a href="#" role="button">Đăng nhập</a>
+                                    <span class="re__line"></span>
+                                    <a href="#" role="button">Đăng ký</a>
+                                </div>
+                            </div>
+                            
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav mr-auto">
+                                <li class="nav-menu__item active">
+                                    <a href="/" class="nav-menu__link">Home</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <div class="nav-menu__box">
+                                        <a href="/" class="nav-menu__link">Gallery</a>
+                                        <i class='bx bx-chevron-down nav-menu__icon'></i>
+                                    </div>
+                                    <ul class="nav-dropdown">
+                                        <li class="nav-dropdown__item">
+                                            <a href="# ">Grid Gallery</a>
+                                        </li>
+                                        <li class="nav-dropdown__item">
+                                            <a href="# ">Grid Fullwidth Gallery</a>
+                                        </li>
+                                        <li class="nav-dropdown__item">
+                                            <a href="# ">Masonry Gallery</a>
+                                        </li>
+                                        <li class="nav-dropdown__item">
+                                            <a href="# ">Masonry Fullwidth Gallery</a>
+                                        </li>
+                                    </ul>
                                     <li class="nav-menu__item">
                                         <div class="nav-menu__box">
                                             <a href="/" class="nav-menu__link">Shop</a>
@@ -111,41 +128,20 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="nav-menu__item">
-                                        <div class="nav-menu__box">
-                                            <a href="/" class="nav-menu__link">Pages</a>
-                                            <i class='bx bx-chevron-down nav-menu__icon'></i>
-                                        </div>
-                                        <ul class="nav-dropdown">
-                                            <li class="nav-dropdown__item">
-                                                <a href="# ">What we offer</a>
-                                            </li>
-                                            <li class="nav-dropdown__item">
-                                                <a href="# ">Our team</a>
-                                            </li>
-                                            <li class="nav-dropdown__item">
-                                                <a href="# ">Testimonials</a>
-                                            </li>
-                                            <li class="nav-dropdown__item">
-                                                <a href="# ">Pricing list</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    
-                                        
-                                </ul>
-                                
-                            </div>
-                            <div class="form-search">
+                                </li>
+                    
+                              </ul>
+                              <div class="form-search">
                                 <form class="form-inline my-2 my-lg-0">
                                     <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm..." aria-label="Search">
                                     <button class="btn  my-2 my-sm-0" type="submit"><i class="fa fa-search"></i> Tìm</button>
                                     <button style="margin-left: 20px; border-radius: 12px; font-size: 24px;">    <i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
                                 </form>
                             </div>
-                        </div>
-                       
+                            </div>
+                          </nav>
                     </div>
+                </div>
             </nav>
 
         </header>

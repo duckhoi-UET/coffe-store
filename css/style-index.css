@@ -191,6 +191,10 @@
     display: flex;
 }
 
+.nav-hidden {
+    display: flex;
+}
+
 .nav-menu__list {
 	display: flex;
 	align-items: center;
