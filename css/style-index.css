@@ -800,9 +800,9 @@ main {
 
 .footer__socials {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	margin-top: 24px;
+
 }
 .footer__socials a {
 	width: 40px;
@@ -814,6 +814,7 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+    margin-left: 10px;
 }
 .footer__socials a:hover {
 	border-color: var(--border-color);
