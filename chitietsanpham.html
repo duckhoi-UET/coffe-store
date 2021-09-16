@@ -201,12 +201,45 @@
                     </div>
                 </div>
             </div>
+            <div>
+               
+                <!-- <link rel="stylesheet" href="css/rate.css"> -->
+                <div>
+                    <h3>Đánh giá</h3>
+                   <textarea name="" id="" cols="50" rows="10" placeholder="  Nhập nội dung đánh giá của bạn..."></textarea>
+                </div>
+                
+                <div class="stars">
+                    <form action="">
+                      <input class="star star-5" id="star-5" type="radio" name="star"/>
+                      <label class="star star-5" for="star-5"></label>
+                      <input class="star star-4" id="star-4" type="radio" name="star"/>
+                      <label class="star star-4" for="star-4"></label>
+                      <input class="star star-3" id="star-3" type="radio" name="star"/>
+                      <label class="star star-3" for="star-3"></label>
+                      <input class="star star-2" id="star-2" type="radio" name="star"/>
+                      <label class="star star-2" for="star-2"></label>
+                      <input class="star star-1" id="star-1" type="radio" name="star"/>
+                      <label class="star star-1" for="star-1"></label>
+                    </form>
+                  </div>
+            </div>
+            <div ">
+                <button class="button_submit" onclick="submitate()"><span>Submit </span></button>
+                <script>  
+                    function submitate(){  
+                      alert("Bạn đã gửi đánh giá thành công");  
+                    }  
+                  </script>
+            </div>
         </div>
-    </div>
 
+    </div>
+    
     <script src = "js/chitietsanpham.js"></script>
 </body>
-<footer>
+
+<footer style="padding-top: 10px;">
     <section class="section--custom2">
         <div class="grid wide">
             <div class="row">
