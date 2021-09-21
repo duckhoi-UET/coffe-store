@@ -1,0 +1,54 @@
+.show_boloc {
+    padding-top: 170px;
+}
+.group-boloc {
+    background: #808080 !important;
+    margin-bottom: 0 !important;
+}
+.group-boloc .title-block {
+    padding: 10px !important;
+}
+
+.group-boloc .title-block .title-group {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+.group-boloc .title-block .title-group {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+.group-boloc .title-block .title-group i {
+    margin-right: 5px;
+}
+
+.group-collection {
+    background: #f9f9f9;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+
+.group-collection .title-block {
+    cursor: pointer;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.group-collection .title-block .title-group {
+    margin: 0;
+    font-size: 18px;
+}
+
+.group-collection .title-block i {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 26px;
+    height: 26px;
+}
