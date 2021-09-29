@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Sidebar 08</title>
+  	<title>Danh sách</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -9,8 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/style-index.css">
     <link rel="stylesheet" type="text/css" href="css/index-base-style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/styleds.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styleds.css">
         
   </head>
   <body>
@@ -146,13 +146,51 @@
     </header>
 	<div class="container d-md-flex align-items-stretch">
       <!-- Page Content  -->
+      <nav id="sidebar" class="p-4" style="padding-top: 2rem;">
+        <div class="p-4">
+            <h5>Bộ lọc sản phẩm</h5>
+            <ul class="list-unstyled components mb-5">
+            <li>
+                <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Thương Hiệu</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu1">
+                    <li>
+                        <a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a>
+                    </li>
+                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
+                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
+                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
+                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
+                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
+                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Khoảng giá</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu2">
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Dưới 100k</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Từ 100-200k</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trên 200k</a></li>
+                </ul>
+            </li>
+            </ul>
+            <div class="mb-5">
+                <h5>Tag Cloud</h5>
+                <div class="tagcloud">
+                    <a href="#" class="tag-cloud-link">dish</a>
+                    <a href="#" class="tag-cloud-link">menu</a>
+                    <a href="#" class="tag-cloud-link">food</a>
+                    <a href="#" class="tag-cloud-link">sweet</a>
+                    <a href="#" class="tag-cloud-link">tasty</a>
+                    <a href="#" class="tag-cloud-link">delicious</a>
+                    <a href="#" class="tag-cloud-link">desserts</a>
+                    <a href="#" class="tag-cloud-link">drinks</a>
+                </div>
+            </div>
+        </div>
+    </nav>
       <div id="content" class="p-4">
-        <section class="section--basic section--bg section__product">
+        <section class="section--basic section--bg section__product" style="padding: 5px 0;">
             <div class="grid wide">
-                <h2 class="section--title"> 
-                    New Products  
-                </h2>
-                <hr/>
                 <div class="products">
                     <div class="product__item">
                         <div class="product__picture">
@@ -330,52 +368,8 @@
         </section>
       </div>
 
-      <nav id="sidebar" class="p-4">
-				<div class="p-4">
-					<h5>Bộ lọc sản phẩm</h5>
-	        <ul class="list-unstyled components mb-5">
-	          <li>
-	            <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Thương Hiệu</a>
-	            <ul class="collapse list-unstyled" id="pageSubmenu1">
-                    <li>
-                        <a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a>
-                    </li>
-                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
-                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
-                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
-                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
-                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
-                    <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trung Nguyên</a></li>
-	            </ul>
-	          </li>
-	          <li>
-	            <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Khoảng giá</a>
-	            <ul class="collapse list-unstyled" id="pageSubmenu2">
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Dưới 100k</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Từ 100-200k</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span> Trên 200k</a></li>
-	            </ul>
-	          </li>
-	        </ul>
-					<div class="mb-5">
-						<h5>Tag Cloud</h5>
-            <div class="tagcloud">
-              <a href="#" class="tag-cloud-link">dish</a>
-              <a href="#" class="tag-cloud-link">menu</a>
-              <a href="#" class="tag-cloud-link">food</a>
-              <a href="#" class="tag-cloud-link">sweet</a>
-              <a href="#" class="tag-cloud-link">tasty</a>
-              <a href="#" class="tag-cloud-link">delicious</a>
-              <a href="#" class="tag-cloud-link">desserts</a>
-              <a href="#" class="tag-cloud-link">drinks</a>
-            </div>
-					</div>
-					
-	          </form>
-					</div>
-	      </div>
-    	</nav>
-		</div>
+        
+	</div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>

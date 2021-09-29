@@ -184,9 +184,6 @@ main {
 	box-shadow: var(--box-shadow-header);
 }
 
-.form-search {
-    margin-bottom: 16px;
-}
 
 .form-search .form-inline .btn, .form-search .form-inline .form-control{
     border: 1px solid #4f4b43;
